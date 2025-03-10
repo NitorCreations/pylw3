@@ -109,8 +109,7 @@ def is_decoder_discovery_node(node: Response) -> bool:
 
 class LW3(TelnetDevice):
     def __init__(self, host: str, port: int, timeout: int = 5):
-        super().__init__(host, port)
-        self._timeout = timeout
+        super().__init__(host, port, timeout)
 
     async def _read_and_parse_response(self) -> Response:
         # All commands are wrapped with a signature, so read until the end delimiter
