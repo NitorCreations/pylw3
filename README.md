@@ -1,5 +1,8 @@
 # pylw3
 
+[![Tests](https://github.com/NitorCreations/pylw3/actions/workflows/unittest.yaml/badge.svg)](https://github.com/NitorCreations/pylw3/actions/workflows/unittest.yaml)
+[![Linting](https://github.com/NitorCreations/pylw3/actions/workflows/ruff.yaml/badge.svg)](https://github.com/NitorCreations/pylw3/actions/workflows/ruff.yaml)
+
 Lightware LW3 protocol library for controlling Lightware encoders and decoders.
 
 This library uses our [pytelnetdevice](https://github.com/NitorCreations/pytelnetdevice) library under the hood.
